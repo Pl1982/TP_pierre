@@ -356,6 +356,16 @@ em {
 .derniereimages {
   width: 40%;
   border-radius: var(--border-radius);
+  position: relative;
+}
+
+.derniereimages img {
+  margin: auto;
+  width: 70%;
+  border-radius: var(--border-radius) margin: auto;
+  display: block;
+  box-shadow: var(--box-shadow-default);
+  border: 1px solid var(--border-color);
 }
 
 .ordinateur {
@@ -365,4 +375,27 @@ em {
 
 .nouschoisirbtn {
   margin-top: 1em;
+}
+
+/********************************ABOUT ********************************/
+.bg-square-about-1 {
+  width: 50%;
+  height: 90%;
+  position: absolute;
+  top: -10%;
+  right: 3%;
+  background: var(--primary);
+  z-index: -1;
+  border-radius: var(--border-radius);
+}
+
+.bg-square-about-2 {
+  width: 50%;
+  height: 90%;
+  position: absolute;
+  bottom: -10%;
+  left: 3%;
+  background: var(--secondery);
+  z-index: -1;
+  border-radius: var(--border-radius);
 }
