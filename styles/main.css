@@ -339,3 +339,30 @@ em {
 .cv-card:hover h3 {
   color: white;
 }
+
+.apropos h3 {
+  color: black;
+}
+
+.nouschoisir {
+  display: flex;
+  justify-content: center;
+}
+
+.nouschoisirparagraphe {
+  width: 55%;
+}
+
+.derniereimages {
+  width: 40%;
+  border-radius: var(--border-radius);
+}
+
+.ordinateur {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.nouschoisirbtn {
+  margin-top: 1em;
+}
